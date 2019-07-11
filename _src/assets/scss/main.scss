@@ -2,12 +2,47 @@
 @import "core/settings";
 @import "core/buttons";
 
-.central-column{
-	background-color: aquamarine;
-}
-.menu {
+.menu__button {
+  display: inline-block;
+  position: fixed;
   width: 44px;
   height: 44px;
-  background-color: #0271bc; 
+  background-color: #0271bc;
   /*crear variable de color*/
+} /*faltan las 3 rayitas de la hamburguesa*/
+.menu__nav {
+  display: none;
+} /*he creado un menú oculto porque aunque no podamos aplicar la funcionalidad de que se despliegue sin javascript podemos ocultar los elementos que necesitamos en ese menú. Es con display:none para que oculte también las cajas.*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.hero__content {
+  position: absolute;
+  top: 300px;
+}
+.hero__title {
+  font-family: "Roboto Slab", serif;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 55px;
+  text-align: center;
+  color: #fff; /*crear variable*/
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.hero__subtitle {
+	text-align: center;
+	color:#fff
+	font-family: "Roboto", sans-serif;
+  	font-size: 16px;
+}
+.hero__button {
 }
