@@ -1,5 +1,13 @@
-@import 'core/reset';
-@import 'core/settings';
-@import 'core/buttons';
+@import "core/reset";
+@import "core/settings";
+@import "core/buttons";
 
-
+.central-column{
+	background-color: aquamarine;
+}
+.menu {
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc; 
+  /*crear variable de color*/
+}
