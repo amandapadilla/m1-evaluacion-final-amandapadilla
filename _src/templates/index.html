@@ -1,17 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Evaluation</title>
-  <link rel="icon" href="favicon.png"/>
-	<link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-  <div class="page">
-    <partial src="_header.html" label="Header"></partial>
-    <partial src="_main.html" label="Main"></partial>
-    <!-- <partial src="_link.html" aClass="link__adalab" text="Adalab" url="https://adalab.es"></partial> -->
-    <!-- <partial src="_link.html" aClass="link__github" text="GitHub" url="https://github.com"></partial> -->
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Evaluation</title>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <button class="menu"></button>
+    </header>
+    <div class="hero">
+      <h1>ANONYMOUS PROXY</h1>
+      <h2>In hac habitasse platea dictumst</h2>
+      <button class="hero__button"></button>
+    </div>
+    <main class="main">
+      <h5 class="main__soft-title">Insomnia Tips</h5>
+      <h3 class="main__title">Looking Through A Window</h3>
+      <p class="main__content">
+        Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+        luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+      </p>
+      <button class="main__button">Go</button>
+    </main>
+    <section class="grid">
+      <h3 class="grid__title">3 Reasons To Purchase</h3>
+      <div class="grid__item">
+        <h4>Ut sed metus</h4>
+        <p>Lorem ipsum dolor sit amet, consecteur.</p>
+      </div>
+      <div class="grid__item">
+        <h4>Curabitur ac erat</h4>
+        <p>Mauris mattis urna quis lorem molestie.</p>
+      </div>
+      <div class="grid__item">
+        <h4>Morbi dictum</h4>
+        <p>Aliquam in dolor et dolor tincidunt.</p>
+      </div>
+      <button>More reasons</button>
+    </section>
+    <footer class="footer">
+      <button class="footer__button"></button>
+      <ul footer__menu>
+        <li>ARTICLES</li>
+        <li>BOOKS</li>
+        <li>EVENTS</li>
+        <li>REASONS</li>
+        <li>TIPS</li>
+      </ul>
+      <ul class="footer__social">
+          <li>TWITTER</li>
+          <li>INSTAGRAM</li>
+          <li>MASTODON.SOCIAL</li>
+      </ul>
+      <small>&copy;2017</small>
+      <small>we<small>&hearts;</small>components</small>
+    </footer>
+
+    <div class="page">
+      <partial src="_header.html" label="Header"></partial>
+      <partial src="_main.html" label="Main"></partial>
+      <!-- <partial src="_link.html" aClass="link__adalab" text="Adalab" url="https://adalab.es"></partial> -->
+      <!-- <partial src="_link.html" aClass="link__github" text="GitHub" url="https://github.com"></partial> -->
+    </div>
+  </body>
 </html>
