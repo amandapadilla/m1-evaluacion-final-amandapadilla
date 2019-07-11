@@ -4,14 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Evaluation</title>
   </head>
-  <body class="central-column">
-    <header>
+  <body>
+    <div class="page">
+      <partial src="_header.html" label="header"></partial>
+      <partial src="_hero.html" label="hero"></partial>
+      <partial src="_main.html" label="main"></partial>
+      <partial src="_sectiongrid" label="grid"></partial>
+      <partial src="_footer.html" label="footer"></partial>
+
+      <!-- <header>
       <nav class="menu">
-        <button class="menu__button"></button>
+        <button class="menu__button">
+          <img src="./assets/images/ico-menu.svg" alt="Menú">
+        </button>
         <ul class="menu__nav">
             <li>ARTICLES</li>
             <li>BOOKS</li>
@@ -20,15 +32,15 @@
             <li>TIPS</li>
           </ul>
       </nav>
-    </header>
-    <section class="hero">
+    </header> -->
+      <!-- <section class="hero">
       <div class="hero__content">
         <h1 class="hero__title">ANONYMOUS PROXY</h1>
         <h2 class="hero__subtitle">In hac habitasse platea dictumst</h2>
       </div>
       <button class="hero__button"></button>
-    </section>
-    <main class="main">
+    </section> -->
+      <!-- <main class="main">
       <h5 class="main__soft-title">Insomnia Tips</h5>
       <h3 class="main__title">Looking Through A Window</h3>
       <p class="main__content">
@@ -36,8 +48,8 @@
         luctus ex diam nec lectus. Vivamus semper sodales rutrum.
       </p>
       <button class="main__button">Go</button>
-    </main>
-    <section class="grid">
+    </main> 
+       <section class="grid">
       <h3 class="grid__title">3 Reasons To Purchase</h3>
       <div class="grid__item">
         <h4>Ut sed metus</h4>
@@ -52,32 +64,26 @@
         <p>Aliquam in dolor et dolor tincidunt.</p>
       </div>
       <button>More reasons</button>
-    </section>
-    <footer class="footer">
-      <button class="footer__button"></button>
-      <nav>
-        <ul footer__menu>
-          <li>ARTICLES</li>
-          <li>BOOKS</li>
-          <li>EVENTS</li>
-          <li>REASONS</li>
-          <li>TIPS</li>
+    </section> 
+      <footer class="footer">
+        <button class="footer__button"></button>
+        <nav>
+          <ul footer__menu>
+            <li>ARTICLES</li>
+            <li>BOOKS</li>
+            <li>EVENTS</li>
+            <li>REASONS</li>
+            <li>TIPS</li>
+          </ul>
+        </nav>
+        <ul class="footer__social">
+          <li>TWITTER</li>
+          <li>INSTAGRAM</li>
+          <li>MASTODON.SOCIAL</li>
         </ul>
-      </nav>
-      <ul class="footer__social">
-        <li>TWITTER</li>
-        <li>INSTAGRAM</li>
-        <li>MASTODON.SOCIAL</li>
-      </ul>
-      <small>&copy;2017</small>
-      <small>we<small>&hearts;</small>components</small>
-    </footer>
-
-    <div class="page">
-      <partial src="_header.html" label="Header"></partial>
-      <partial src="_main.html" label="Main"></partial>
-      <!-- <partial src="_link.html" aClass="link__adalab" text="Adalab" url="https://adalab.es"></partial> -->
-      <!-- <partial src="_link.html" aClass="link__github" text="GitHub" url="https://github.com"></partial> -->
+        <small>&copy;2017</small>
+        <small>we<small>&hearts;</small>components</small>
+      </footer>
     </div>
   </body>
 </html>

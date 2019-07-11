@@ -2,6 +2,7 @@
 @import "core/settings";
 @import "core/buttons";
 
+
 .menu__button {
   display: inline-block;
   position: fixed;
@@ -27,7 +28,8 @@
 }
 .hero__content {
   position: absolute;
-  top: 300px;
+  top: 338px;
+  width: 100%;
 }
 .hero__title {
   font-family: "Roboto Slab", serif;
@@ -37,12 +39,15 @@
   text-align: center;
   color: #fff; /*crear variable*/
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
 }
 .hero__subtitle {
-	text-align: center;
-	color:#fff
-	font-family: "Roboto", sans-serif;
-  	font-size: 16px;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: initial;
+  font-size: 16px;
 }
 .hero__button {
+  background-color: #0271bc;
 }
