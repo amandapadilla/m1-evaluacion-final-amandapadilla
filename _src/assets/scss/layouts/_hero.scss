@@ -28,7 +28,7 @@
   }
   &__subtitle {
     text-align: center;
-    color:$primary-color;
+    color: $primary-color;
     font-family: $text-font;
     font-weight: initial;
     font-size: 16px;
@@ -45,6 +45,34 @@
     background-color: $softtitle-color;
   }
   &__button-scroll {
-    margin: 15px 10px 10px 10px; 
+    margin: 15px 10px 10px 10px;
   } /*He aplicado margen a todos los lados para ampliar la zona clickable del botón*/
+}
+
+@media all and (min-width: 768px) {
+  .hero {
+    min-height: 768px;
+    padding: 0 39px 0 39px;
+
+    &__content {
+      position: absolute;
+      top: 384px;
+      width: 100%;
+    }
+    &__title {
+      font-size: 80px;
+      line-height: 106px;
+      margin-bottom: 20px;
+    }
+    &__subtitle {
+      font-size: 24px;
+    }
+    &__button {
+      position: absolute;
+      bottom: 300px;
+    }
+    &__button:hover {
+      background-color: $softtitle-color;
+    }
+  }
 }
