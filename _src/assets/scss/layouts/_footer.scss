@@ -79,3 +79,15 @@
     color: $softtitle-color;
   }
 }
+
+@media all and (min-width: 768px) {
+  .footer {
+    padding: 0 39px 0 39px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .footer {
+    padding: 0 370px 0 370px;
+  }
+}
