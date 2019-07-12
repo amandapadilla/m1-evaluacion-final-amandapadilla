@@ -1,6 +1,6 @@
 .main {
   background-color: $primary-color;
-  padding: 40px 15px 0 15px; /*He puesto un margen superior de 40px en lugar de 30 para que el softtitle no quede oculto tras el menú de hamburguesa*/
+  padding: 30px 15px 0 15px; 
 
   &__soft-title {
     color: $softtitle-color;
