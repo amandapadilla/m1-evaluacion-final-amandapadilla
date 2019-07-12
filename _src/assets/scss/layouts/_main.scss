@@ -1,3 +1,24 @@
 .main{
     background-color: $primary-color;
+    padding: 30px 15px 0 15px;
+
+    &__soft-title{
+        color: $softtitle-color;
+        font-family: $text-font;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    &__title{
+        color: $secondary-color;
+        font-family: $titles-font;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    &__content{
+        color: $mainsection-color;
+        font-family: $text-font;
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
