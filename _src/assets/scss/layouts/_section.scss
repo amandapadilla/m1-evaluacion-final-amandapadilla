@@ -28,6 +28,10 @@
     height: 45px;
     border-radius: 2em;
     margin: 0 70px 60px 70px;
+    transition-duration: 0.2s;
+  }
+  &__button:hover {
+    background-color: $footer-color;
   }
   &__button--text {
     background-color: none;
