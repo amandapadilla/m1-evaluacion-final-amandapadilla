@@ -23,7 +23,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 150px;
-    margin-top: 10px;
     margin-bottom: 30px;
     list-style: none;
     font-family: $text-font;
@@ -44,16 +43,16 @@
     line-height: 30px;
   }
   &__copy {
-    width: 77px;
+    display: block;
     font-family: $text-font;
     color: $primary-color;
     font-size: 14px;
     line-height: 30px;
     text-align: center;
+    
   }
   &__motto {
     display: block;
-    width: 290px;
     margin-bottom: 45px;
     font-family: $text-font;
     color: $primary-color;
@@ -85,9 +84,7 @@
     padding: 45px 39px 30px 39px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: flex-start;
-    align-content: flex-start;
 
     &__button {
       position: absolute;
