@@ -81,21 +81,33 @@
 
 @media all and (min-width: 768px) {
   .footer {
-    padding: 45px 39px 30px 39px;
+    padding: 45px 39px 10px 39px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
 
     &__button {
       position: absolute;
       top: 1500px;
       right:360px ;
     }
+    &__menu {
+      display:flex;
+      text-align: left;
+    }
+    &__social{
+      text-align: left;
+    }
     
     &__welovecopy {
       order:-1;
       display: flex;
       flex-direction: column;
+    }
+
+    &__copy{
+      text-align: left;
     }
 
     &__menu--link {
@@ -106,6 +118,38 @@
 
 @media all and (min-width: 1200px) {
   .footer {
-    padding: 0 370px 0 370px;
+    padding: 45px 370x 10px 370px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    &__button {
+      position: absolute;
+      top: 1645px;
+      right:590px ;
+    }
+    &__menu {
+      display:flex;
+      text-align: left;
+    }
+    &__social{
+      text-align: left;
+    }
+    
+    &__welovecopy {
+      order:-1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__copy{
+      text-align: left;
+    }
+
+    &__menu--link {
+      margin:0;
+    }
   }
 }
+
