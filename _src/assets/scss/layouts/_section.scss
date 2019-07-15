@@ -18,7 +18,7 @@
     font-size: 18px;
     text-align: center;
     line-height: 30px;
-    margin: 0 55px 0 55px;
+    margin: 0 70px 0 70px; /*En la versión master los márgenes derecho e izquierdo figuran como 55px, cuando deberían ser 70 px.*/
   }
   &__item--title {
     font-family: $titles-font;
@@ -47,11 +47,11 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 30px 38px 0px 38px;
+    height: auto;
 
     &__title {
       grid-column: 1/4;
-      font-size: 26px;
+      font-size: 26px; /*En lugar de 24px*/
       line-height: 45px;
     }
     &__item {
@@ -65,9 +65,9 @@
     }
     &__button {
       grid-column: 2/3;
-      margin-top: 60px;
       width: 210px;
       margin-bottom: 0;
+      margin-top:60px;
     }
     &__button--text {
       text-align: center;

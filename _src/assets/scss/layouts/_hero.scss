@@ -69,7 +69,7 @@
     }
     &__button {
       position: absolute;
-      bottom: 300px;
+      top: 675px;/* En lugar de bottom:300px que no tiene mucho sentido. Fallo de visualización.*/
     }
     &__button:hover {
       background-color: $softtitle-color;
